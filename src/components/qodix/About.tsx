@@ -13,7 +13,7 @@ const PRINCIPLES = [
   {
     index: "02",
     title: "BUILD WITH PURPOSE",
-    text: "We develop useful, reliable, and scalable solutions.",
+    text: "We develop useful, reliable, and scalable Websites & Solutions",
   },
   {
     index: "03",
@@ -71,12 +71,11 @@ export function About() {
           <div className="order-1 md:order-2 md:col-span-6 md:col-start-7">
             <Fade className="space-y-6 text-[15px] leading-relaxed text-mid md:text-lg">
               <p>
-                QODIX is an independent digital technology studio focused on transforming
-                ideas into purposeful digital experiences and intelligent software.
+                QODIX is an independent digital technology studio focused on Business, Startups, Person's To Build an Online Presence through Web!
               </p>
               <p>
                 We combine creative thinking, modern engineering, and technology to build
-                solutions that create real value.
+               Website & solutions that create real value.
               </p>
             </Fade>
 
