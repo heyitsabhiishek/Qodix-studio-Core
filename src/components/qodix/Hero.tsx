@@ -67,14 +67,14 @@ export function Hero() {
           className="mb-7 flex items-center gap-4 md:mb-9"
         >
           <span className="h-1.5 w-1.5 animate-pulse-dot rounded-full bg-white" aria-hidden />
-          <span className="label-micro text-mid">INDEPENDENT DIGITAL TECHNOLOGY STUDIO</span>
+          <span className="label-micro text-mid">INDEPENDENT TECHNOLOGY STUDIO</span>
         </motion.div>
 
         {/* headline */}
         <motion.h1
           style={{ x: hx, y: hy }}
           className="font-display leading-[0.84] tracking-[0.005em]"
-          aria-label="Building beyond digital."
+          aria-label="Engineering the WEB"
         >
           <span className="block text-white">
             <CharsReveal text="BUILDING" started={introDone} delay={0.18} stagger={0.035} className="display-fluid" />
@@ -95,8 +95,7 @@ export function Hero() {
             transition={{ duration: 0.8, ease: EASE_OUT, delay: 0.95 }}
             className="max-w-md text-[15px] leading-relaxed text-mid md:text-base"
           >
-            We transform ambitious ideas into meaningful digital experiences, intelligent
-            software, and technology built for what comes next.
+At QODIX, we bring ambitious ideas to life through exceptional web experiences, intelligent software, and purposeful innovation. We don't just build for today — we engineer what comes next.
           </motion.p>
 
           {/* CTAs */}
@@ -111,7 +110,7 @@ export function Hero() {
                 onClick={() => go("work")}
                 className="label-micro bg-white px-7 py-4 text-ink transition-colors duration-300 hover:bg-soft"
               >
-                EXPLORE OUR WORK ↗
+                EXPLORE Project's ↗
               </button>
             </Magnetic>
             <Magnetic>
