@@ -75,7 +75,7 @@ export function Hero() {
           style={{ x: hx, y: hy }}
           className="font-display leading-[0.84] tracking-[0.005em]"
           aria-label="Engineering the WEB"
-        >
+       >
           <span className="block text-white">
             <CharsReveal text="BUILDING" started={introDone} delay={0.18} stagger={0.035} className="display-fluid" />
           </span>
