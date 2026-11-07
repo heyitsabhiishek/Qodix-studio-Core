@@ -73,13 +73,13 @@ export function Navbar() {
               scrollToTop();
             }}
             className="group flex items-center gap-2.5"
-            aria-label="QODIX — back to top"
+            aria-label="QODIX STUDIO— back to top"
           >
             <span className="flex h-7 w-7 items-center justify-center rounded-full border border-white/80 transition-colors duration-300 group-hover:bg-white group-hover:text-ink">
               <span className="font-display text-[13px] leading-none">Q</span>
             </span>
             <span className="font-display text-xl leading-none tracking-[0.14em] text-white">
-              QODIX
+              QODIX STUDIO'S 
             </span>
           </button>
 
