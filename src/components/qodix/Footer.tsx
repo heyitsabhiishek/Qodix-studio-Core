@@ -25,9 +25,9 @@ export function Footer() {
         {/* top row */}
         <div className="grid gap-12 py-16 md:grid-cols-12 md:py-20">
           <div className="md:col-span-5">
-            <p className="label-micro text-low">QODIX</p>
+            <p className="label-micro text-low">QODIX STUDIO</p>
             <p className="mt-4 font-display text-3xl leading-none tracking-[0.04em] text-white md:text-4xl">
-              BUILDING BEYOND DIGITAL.
+              ENGINEERING THE WEB.
             </p>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-low">
               Independent digital technology studio. Websites, software, AI, and digital
@@ -125,7 +125,7 @@ export function Footer() {
               TERMS & CONDITIONS
             </button>
           </div>
-          <p className="label-micro text-[9px] text-low">DESIGNED & BUILT BY QODIX</p>
+          <p className="label-micro text-[9px] text-low">Design & Founded By Abhiishek</p>
         </div>
       </div>
 
