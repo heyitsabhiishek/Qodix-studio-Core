@@ -108,7 +108,7 @@ export function Footer() {
             className="text-center font-display leading-[0.78] tracking-[0.02em] text-white transition-colors duration-700 group-hover:text-soft"
             style={{ fontSize: "clamp(4.5rem, 21.5vw, 24rem)" }}
           >
-            QODIX
+            QODIX STUDIO'S
           </motion.p>
         </button>
 
