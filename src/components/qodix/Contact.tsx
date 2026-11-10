@@ -83,12 +83,8 @@ export function Contact() {
     setStatus("sending");
     setServerError("");
     try {
-      const res = await fetch("/api/inquiry", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      const data = await res.json();
+const res = await fetch('https: //api.web3forms.com /submit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ apikey: '43ef7edd-7fd3-4f56-b7ae-a 06a692cc565', ...form }), });
+          const data = await res.json();
       if (!res.ok || !data.ok) {
         throw new Error(data.error || "Submission failed. Please try again.");
       }
