@@ -393,10 +393,10 @@ export function Contact() {
           <span className="hidden h-4 w-px bg-line md:block" aria-hidden />
           <Magnetic>
             <a
-              href="mailto:hello@qodix.studio"
+              href="mailto: qodixstudio@gmail.com"
               className="link-line label-micro text-low transition-colors duration-300 hover:text-white"
             >
-              CONTACT QODIX — HELLO@QODIX.STUDIO
+              CONTACT QODIX — qodixstudio@gmail.com
             </a>
           </Magnetic>
         </div>
