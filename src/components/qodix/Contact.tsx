@@ -7,7 +7,7 @@ import { scrollToSection } from "@/lib/smooth-scroll";
 import { Magnetic } from "./Magnetic";
 import { EASE_INOUT, EASE_OUT } from "@/lib/motion-presets";
 
-type FormState = {
+type FormState = { 
   name: string;
   email: string;
   company: string;
