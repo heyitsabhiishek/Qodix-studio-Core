@@ -83,7 +83,7 @@ export function Contact() {
     setStatus("sending");
     setServerError("");
     try {
-const res = await fetch('https: //api.web3forms.com /submit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ apikey: '43ef7edd-7fd3-4f56-b7ae-a 06a692cc565', ...form }), });
+const res = await fetch('https://api.web3forms.com/submit', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body:JSON.stringify({ apikey:'43ef7edd-7fd3-4f56-b7ae-a06a692cc565', ...form }), });
           const data = await res.json();
       if (!res.ok || !data.ok) {
         throw new Error(data.error || "Submission failed. Please try again.");
@@ -389,7 +389,7 @@ const res = await fetch('https: //api.web3forms.com /submit', { method: 'POST', 
           <span className="hidden h-4 w-px bg-line md:block" aria-hidden />
           <Magnetic>
             <a
-              href="mailto: qodixstudio@gmail.com"
+              href="mailto:qodixstudio@gmail.com"
               className="link-line label-micro text-low transition-colors duration-300 hover:text-white"
             >
               CONTACT QODIX — qodixstudio@gmail.com
